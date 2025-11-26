@@ -1,14 +1,15 @@
 {
-  "name": "scoliosis-backend",
+  "name": "spinalsense-frontend",
   "version": "1.0.0",
-  "description": "Scoliosis health app backend",
-  "main": "api/index.js",
-  "type": "commonjs",
+  "private": true,
   "scripts": {
-    "dev": "node api/index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "express": "4.18.2",
-    "cors": "2.8.5"
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
